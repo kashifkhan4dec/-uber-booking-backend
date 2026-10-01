@@ -1,0 +1,16 @@
+{
+  "name": "uber-booking-backend",
+  "version": "1.0.0",
+  "description": "Holds the Uber client_secret and proxies OAuth, price-estimate, and booking requests on behalf of your app's customers.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "axios": "^1.7.2",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^9.0.1"
+  }
+}
